@@ -165,7 +165,7 @@ function moveDodgerLeft() {
    * This function should move DODGER to the left
    * (mabye 4 pixels?). Use window.requestAnimationFrame()!
    */
-   var leftNumbers = rock.style.left.replace('px', '')
+   var leftNumbers = DODGER.style.left.replace('px', '')
    var left = parseInt(leftNumbers, 10)
 
    rock.style.left = `${left - 4}px`
@@ -177,7 +177,7 @@ function moveDodgerRight() {
    * This function should move DODGER to the right
    * (mabye 4 pixels?). Use window.requestAnimationFrame()!
    */
-   var rightNumbers = rock.style.right.replace('px', '')
+   var rightNumbers = DODGER.style.right.replace('px', '')
    var right = parseInt(rightNumbers, 10)
 
    rock.style.left = `${right + 4}px`
