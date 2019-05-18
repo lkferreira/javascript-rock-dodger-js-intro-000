@@ -182,7 +182,7 @@ function moveDodgerRight() {
    var leftNumbers = DODGER.style.left.replace('px', '')
    var left = parseInt(leftNumbers, 10)
 
-   if ((left - 40) < GAME_WIDTH) {
+   if ((left + 40) < GAME_WIDTH) {
     DODGER.style.left = `${left + 4}px`
   }
 }
